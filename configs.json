@@ -1,0 +1,7 @@
+  {
+    "use_proxy":0,
+    "proxy_type":0,
+    "threads":3000,
+    "webhook_enable":0,
+    "webhook_url":"webhookurl"
+}
