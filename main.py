@@ -96,7 +96,7 @@ Checking
         try:
             timestamp = str(datetime.utcnow())
 
-            message_to_send = {"embeds": [{"title": title,"description": message,"color": 65362,"author": {"name": "AUTHOR'S DISCORD SERVER [CLICK HERE]","url": "https://discord.gg/9bHfzyCjPQ","icon_url": icon_url},"footer": {"text": "MADE BY ONEMANBUILDS","icon_url": icon_url},"thumbnail": {"url": thumbnail_url},"timestamp": timestamp}]}
+            message_to_send = {"embeds": [{"title": title,"description": message,"color": 65362,"author": {"name": "AUTHOR'S DISCORD SERVER [CLICK HERE]","url": "","icon_url": icon_url},"footer": {"text": "","icon_url": icon_url},"thumbnail": {"url": thumbnail_url},"timestamp": timestamp}]}
             
             headers = {
                 'User-Agent':useragent,
