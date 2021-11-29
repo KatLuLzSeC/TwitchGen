@@ -96,7 +96,7 @@ Checking
         try:
             timestamp = str(datetime.utcnow())
 
-            message_to_send = {"embeds": [{"title": title,"description": message,"color": 65362,"author": {"name": "AUTHOR'S DISCORD SERVER [CLICK HERE]","url": "","icon_url": icon_url},"footer": {"text": "","icon_url": icon_url},"thumbnail": {"url": thumbnail_url},"timestamp": timestamp}]}
+            message_to_send = {"embeds": [{"title": title,"description": message,"color": 65362,"author": {"name": "LUZL","url": "","icon_url": icon_url},"footer": {"text": "","icon_url": icon_url},"thumbnail": {"url": thumbnail_url},"timestamp": timestamp}]}
             
             headers = {
                 'User-Agent':useragent,
@@ -157,7 +157,7 @@ Checking
 
     def TitleUpdate(self):
         while True:
-            self.SetTitle(f'[Sub To Astrotrek On YouTube] ^| HITS: {self.hits} ^| BADS: {self.bads} ^| RETRIES: {self.retries} ^| WEBHOOK RETRIES: {self.webhook_retries} ^| THREADS: {active_count()-1}')
+            self.SetTitle(f'[LUlzZ] ^| HITS: {self.hits} ^| BADS: {self.bads} ^| RETRIES: {self.retries} ^| WEBHOOK RETRIES: {self.webhook_retries} ^| THREADS: {active_count()-1}')
             sleep(0.1)
 
     def TokenCheck(self,token):
